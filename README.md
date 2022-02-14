@@ -47,6 +47,4 @@ In a third attempt, both a third hidden layer was added with 10 neurons and the 
 ![thirdscore](Resources/thirdscore.png)
 
 ## Summary
-
-Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
-Overall, the deep learning model was not acble to achieve high enough scores to be considered a good model. It is still possible that adjusting the model in different ways could help increase the accuracy score. One factor that was not adjusted was the number of epochs that the model was trained with. Perhaps 100 epochs is not enough and if it were to be trained with more epochs, and may  possibly produce a higher accuracy score.
+Overall, the deep learning model was not able to achieve high enough scores to be considered a good model. The firsta and original model produced a realtively low accuracy score. In the three model adjustment attempts to increase the accuracy score that followed, the accuracy was able to increase but not enough to meet the standards of a model that would be considered good or reliable (at least a 75% accuracy score). It is still possible that adjusting the model in different ways could help increase the accuracy score enough to reach the desired limit. One factor that was not adjusted was the number of epochs that the model was trained with. Perhaps 100 epochs is not enough and if it were to be trained with more epochs, and may possibly produce a higher accuracy score.
