@@ -17,6 +17,10 @@ What variable(s) are considered the target(s) for your model?
 What variable(s) are considered to be the features for your model?
 What variable(s) are neither targets nor features, and should be removed from the input data?
 
+The variable that was considered as the target for my model was the "Is Successful" column.
+
+The variables that were neither features nor targets were the 'EIN' and 'NAME' columns. These were dropped from the DataFrame early on during the preprocessing.
+
 ![balaccsmote](Resources/balaccsmote.png)
 
 ![smote](Resources/smote.png)
