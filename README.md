@@ -36,6 +36,8 @@ What steps did you take to try and increase model performance?
 
 ![easy](Resources/easy.png)
 
+During the first implementation of the model, 110 neurons split between two hidden layers (80 and 30 respectively) were used along with 3 activation functions (1 for each hidden layer and 1 for the output layer). After compiling, training, and evaluating the model with these parameters, I was not able to achieve an ideal target odel performance, as the accuracy score came out to be 61.7%, which was far below the 75% threshold.
+
 ## Summary
 
 Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
