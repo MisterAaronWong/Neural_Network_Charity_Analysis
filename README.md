@@ -16,7 +16,7 @@ The variable that was considered as the target for my model was the "Is Successf
 
 The variables that were neither features nor targets were the 'EIN' and 'NAME' columns. These were dropped from the DataFrame early on during the preprocessing.
 
-The features variables were composed of the remaining columns (Application Type, Affiliation, Classification, Use Case, Organization, Status, Income AMT, Special Considerations, and Ask AMT).
+The features variables were composed of the remaining columns (APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, and ASK_AMT).
 
 ### Compiling, Training, and Evaluating the Model
 During the first implementation of the model, I decided to select and use 2 hidden layers where the first layer had 80 neurons and the second hidden layer had 30 neurons. These were used along with three Rectified Linear (ReLU) activation functions (1 for each hidden layer and 1 for the output layer). After compiling, training (for 100 epochs), and evaluating the model with these parameters, I was not able to achieve an ideal target odel performance, as the accuracy score came out to be 61.7%, which was well below the 75% threshold.
