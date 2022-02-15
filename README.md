@@ -12,9 +12,9 @@ Finally, three attempts were made to alter and optimize the model in order to ac
 ## Results
 
 ### Data Preprocessing
-The variable that was considered as the target for my model was the "Is Successful" column.
+The variable that was considered as the target for my model was the "Is Successful" column. This was due to the binary nature of its data.
 
-The variables that were neither features nor targets were the 'EIN' and 'NAME' columns. These were dropped from the DataFrame early on during the preprocessing.
+The variables that were neither features nor targets were the 'EIN' and 'NAME' columns. These were dropped from the DataFrame early on during the preprocessing steps.
 
 The features variables were composed of the remaining columns (APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, and ASK_AMT).
 
